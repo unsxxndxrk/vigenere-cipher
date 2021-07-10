@@ -1,62 +1,86 @@
 body {
-    color: #fafafa;
-    background: url(img/first-bg.jpg) no-repeat center top / cover;
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  color: #fafafa;
+  background: url(img/first-bg.jpg) no-repeat center top / cover;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-div, h1, h2, h3, input, section { box-sizing: border-box; }
+div,
+h1,
+h2,
+h3,
+input,
+section {
+  box-sizing: border-box;
+}
 
 .main {
-    width: 90%;
-    height: 90%;
-    background: rgba(0, 0, 0, .5);
-    border-radius: 10px;
-    transition: all .5s ease;
-    padding: 20px;
+  width: 90%;
+  height: 90%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  padding: 20px;
 }
 
-.main:hover { background: rgba(0, 0, 0, .85); }
+.main:hover {
+  background: rgba(0, 0, 0, 0.85);
+}
 
 .main__heading {
-    text-align: center;
-    line-height: 1em;
+  text-align: center;
+  line-height: 1em;
 }
 
-.main__heading h2 { font-size: 45px; }
+.main__heading h2 {
+  font-size: 45px;
+}
 
-.main__heading p { font-size: 18px; }
+.main__heading p {
+  font-size: 18px;
+}
 
-.container { text-align: center; }
+.container {
+  text-align: center;
+}
 
-.main__actions { padding-top: 30px; }
+.main__actions {
+  padding-top: 30px;
+}
 
 input {
-    padding: 10px 0 10px 20px;
-    border-radius: 10px;
-    border: 2px solid silver;
-    outline: none;
-    transition: all .5s ease;
-    margin: 10px;
+  padding: 10px 0 10px 20px;
+  border-radius: 10px;
+  border: 2px solid silver;
+  outline: none;
+  transition: all 0.5s ease;
+  margin: 10px;
 }
 
-input:focus { transform: scale(1.03); }
+input:focus {
+  transform: scale(1.03);
+}
 
 button {
-    border: none;
-    cursor: pointer;
-    padding: 10px 20px;
-    font-size: 18px;
-    border: 2px solid silver;
-    margin: 10px;
-    outline: none;
-    transition: all .5s ease;
-    border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 2px solid silver;
+  margin: 10px;
+  outline: none;
+  transition: all 0.5s ease;
+  border-radius: 5px;
 }
 
-button:hover { transform: scale(1.03); background: #f1f1f1; border: 2px solid #fff; border-radius: 10px; }
+button:hover {
+  transform: scale(1.03);
+  background: #f1f1f1;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}

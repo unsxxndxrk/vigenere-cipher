@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Vigenere Cipher</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <section class="main">
-        <div class="container">
-            <div class="main__heading">
-                <h2>Vigenere Cipher</h2>
-                <p>Fill in all the fields and select an action</p>
-            </div>
-            <div class="main__actions">
-                <input type="text" placeholder="Your text" id="user_text">
-                <input type="text" placeholder="Keyword" id="user_key">
-                <div class="button-set">
-                    <button class="button" data-enc="encrypt">Encrypt</button>
-                    <button class="button" data-enc="decrypt">Decrypt</button>
-                </div>
-            </div>
-            <div class="main__result">
-                <h3 id="result"></h3>
-            </div>
+      <div class="container">
+        <div class="main__heading">
+          <h2>Vigenere Cipher</h2>
+          <p>Fill in all the fields and select an action</p>
         </div>
+        <div class="main__actions">
+          <input type="text" placeholder="Your text" id="user_text" />
+          <input type="text" placeholder="Keyword" id="user_key" />
+          <div class="button-set">
+            <button class="button" data-enc="encrypt">Encrypt</button>
+            <button class="button" data-enc="decrypt">Decrypt</button>
+          </div>
+        </div>
+        <div class="main__result">
+          <h3 id="result"></h3>
+        </div>
+      </div>
     </section>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
